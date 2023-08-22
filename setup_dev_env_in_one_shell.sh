@@ -11,6 +11,7 @@ apt-get install sshpass -y
 apt-get install zip unzip -y
 sudo apt-get install git -y
 apt-get install openssh-server -y
+apt-get install jq -y
 
 # zsh and oh-my-zsh
 apt-get install zsh -y
