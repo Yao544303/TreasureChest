@@ -27,6 +27,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 curl -s "https://get.sdkman.io" | bash
 sdk install java 8.0.382-amzn
 sdk install java 11.0.20-amzn
+sdk install java 17.0.8-amzn
+sdk install gradle 8.2.1  
+sdk install maven 3.9.4
 sdk install scala 3.3.0
 
 # nvm
