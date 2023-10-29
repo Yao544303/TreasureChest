@@ -1,0 +1,88 @@
+pageInfo:
+  title: Miao18' Dashy
+  description: Welcome to Miao18' Dashboard!
+  navLinks:
+    - title: GitHub
+      path: https://blog.miao18.tech/
+appConfig:
+  theme: material
+  layout: horizontal
+  iconSize: large
+  language: en
+  auth:
+    enableGuestAccess: true
+    users:
+    - user: adminme
+      hash: 密码的hash值
+      type: admin
+sections:
+  - name: PAGEs
+    icon: fas fa-paw
+    items:
+      - title: blog
+        description: blog
+        icon: favicon
+        url: https://blog.miao18.tech
+        target: newtab
+        id: 1_304_blog
+      - title: github.io
+        description: github.io
+        icon: favicon
+        url: https://yao544303.github.io/
+        target: newtab
+        id: 1_304_gpage
+  - name: IT-Tools
+    icon: fas fa-rocket
+    items:
+      - title: AI Bot
+        description: AI工具集
+        icon: favicon
+        url: https://ai-bot.cn/
+        target: newtab
+        id: 0_731_aibot
+      - title: lddgo
+        description: 在线工具
+        url: https://www.lddgo.net/index
+        icon: favicon
+        id: 1_731_lddgo
+      - title: What-is-my-ip
+        description: What-is-my-ip
+        url: https://whatismyipaddress.com/
+        icon: favicon
+        id: 2_731_whatismyip
+      - title: draw.io
+        description: draw.io
+        url: https://app.diagrams.net/
+        icon: favicon
+        id: 3_731_drawio
+      - title: codebeautify
+        description: codebeautify
+        url: https://codebeautify.org/
+        icon: favicon
+        id: 4_731_codebeautify
+      - title: codepen
+        description: codepen
+        url: https://codepen.io/
+        icon: favicon
+        id: 5_731_codepen
+      - title: jsonformatter
+        description: jsonformatter
+        url: https://jsonformatter.org/
+        icon: favicon
+        id: 6_731_jsonformatter
+      - title: jwt.io
+        description: jwt.io
+        url: https://jwt.io/
+        icon: favicon
+        id: 7_731_jwtio
+      - title: iwo
+        description: let me baidu for you
+        url: https://iwo.im/
+        icon: favicon
+        id: 8_731_iwo
+      - title: freeocr
+        description: freeocr
+        url: http://ocr.space/
+        icon: favicon
+        id: 8_731_freeocr     
+ 
